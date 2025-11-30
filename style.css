@@ -78,6 +78,10 @@ body{
     position: relative;
 }
 
+a {
+    text-decoration: none;  
+}
+
 /* LOGO ICON */
 .btn img{
     width: 26px;
@@ -150,4 +154,3 @@ body{
         height: 22px;
     }
 }
-
