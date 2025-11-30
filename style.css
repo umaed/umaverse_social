@@ -113,6 +113,26 @@ body{
     transition: 0.3s;
 }
 
+.title-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.title-logo img{
+    width: 300px;           /* sesuaikan besar kecilnya */
+    filter: drop-shadow(0 0 12px rgba(255,255,255,0.4));
+    animation: fadeLogo 1.2s ease;
+}
+
+/* Animasi muncul */
+@keyframes fadeLogo{
+    from { opacity: 0; transform: translateY(-10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+
 .popup.show{
     opacity: 1;
 }
